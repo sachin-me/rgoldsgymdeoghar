@@ -1,0 +1,152 @@
+.classDetails{
+    display: flex;
+    padding: 40px 80px;
+}
+
+.classDetails > section:first-child{
+    width: 60%;
+    margin-right: 40px;
+}
+
+.classDetails > section:first-child img{
+    height: 400px;
+    width: 100%;
+}
+
+.classDetails > section:first-child > p{
+    color: gray;
+    line-height: 2;
+}
+
+.classDetails > section:first-child > ul{
+    line-height: 2.5;
+    list-style: none;
+}
+
+.classDetails > section:first-child > ul li::before {
+    content: '▣';
+    color: goldenrod;
+    margin-right: 10px;
+}
+
+.classDetails > section:last-child{
+    width: 50%;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.classDetails > section:last-child > div > h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.classDetails > section:last-child > div > div{
+    display: flex;
+}
+
+.classDetails > section:last-child > div > div > div{
+    box-shadow: 5px 5px 10px lightgray;
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.classDetails > section:last-child > div > div > div > h4{
+    font-size: 20px;
+    line-height: .1;
+}
+
+.classDetails > section:last-child > div > div > div > p{
+    color: goldenrod;
+    line-height: .1;
+}
+
+.classDetails > section:last-child > div:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.classDetails > section:last-child > div:last-child > * > *{
+    background-color: goldenrod;
+    border-radius: 0;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 45px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+    .classDetails > section:first-child > p{
+        font-size: 12px;
+    }
+
+    .classDetails > section:first-child > ul{
+        font-size: 12px;
+    }
+
+    .classDetails > section:last-child > div > h2{
+        font-size: 30px;
+    }
+
+    .classDetails > section:last-child > div > div > div > h4{
+        font-size: 14px;
+    }
+
+    .classDetails > section:last-child > div > div > div > p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 950px) {
+    .classDetails > section:first-child > p{
+        font-size: 10px;
+    }
+
+    .classDetails > section:first-child > ul{
+        font-size: 10px;
+    }
+
+    .classDetails > section:first-child img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .classDetails > section:last-child > div > div > div > h4{
+        font-size: 12px;
+    }
+
+    .classDetails > section:last-child > div > div > div > p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 771px) {
+    .classDetails{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .classDetails > section:first-child{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .classDetails > section:last-child{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .classDetails > section:last-child > div > h2{
+        font-size: 25px;
+    }
+
+    .classDetails > section:last-child > div:last-child > *{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+}
