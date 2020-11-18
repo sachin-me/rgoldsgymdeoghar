@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9adb4e1c.chunk.css",
+    "main.js": "/static/js/main.6cdfaec1.chunk.js",
+    "main.js.map": "/static/js/main.6cdfaec1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.403965eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.403965eb.js.map",
+    "static/js/2.9682695c.chunk.js": "/static/js/2.9682695c.chunk.js",
+    "static/js/2.9682695c.chunk.js.map": "/static/js/2.9682695c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.747a06ad49ebf49d017cfebf5ddc0f74.js": "/precache-manifest.747a06ad49ebf49d017cfebf5ddc0f74.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9adb4e1c.chunk.css.map": "/static/css/main.9adb4e1c.chunk.css.map",
+    "static/js/2.9682695c.chunk.js.LICENSE.txt": "/static/js/2.9682695c.chunk.js.LICENSE.txt",
+    "static/media/about-us.jpg": "/static/media/about-us.7ca48940.jpg",
+    "static/media/OurClasses.css": "/static/media/class-6.ba3a4119.jpg",
+    "static/media/congratulation.png": "/static/media/congratulation.fe94c77e.png",
+    "static/media/SecondaryHeader.css": "/static/media/header_background.6d78ce2d.jpg",
+    "static/media/Pricing.css": "/static/media/option-3.79ef02a1.jpg",
+    "static/media/payPal.png": "/static/media/payPal.c42e92ba.png",
+    "static/media/payment1.png": "/static/media/payment1.e3192ed3.png",
+    "static/media/payment2.png": "/static/media/payment2.d40af3bd.png",
+    "static/media/MainBody.css": "/static/media/program-2.ef035eec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.403965eb.js",
+    "static/js/2.9682695c.chunk.js",
+    "static/css/main.9adb4e1c.chunk.css",
+    "static/js/main.6cdfaec1.chunk.js"
+  ]
+}
