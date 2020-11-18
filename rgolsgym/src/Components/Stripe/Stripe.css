@@ -1,0 +1,229 @@
+.stripe{
+  margin-bottom: 20px;
+}
+
+.stripe > div:first-child{
+  border: 1px solid gray;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.stripe .creditCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stripe .creditCard div:first-child {
+  display: flex;
+}
+
+.stripe .creditCard div:first-child p {
+  line-height: .1;
+  font-weight: 600;
+}
+
+.stripe .creditCard div:first-child small,
+.stripe .payPal div:first-child small {
+  font-size: 12px;
+}
+
+.stripe .creditCard .paymentImg > img {
+  height: 20px;
+  margin-left: 5px;
+}
+
+.stripe .FormGroup{
+  border: none;
+}
+
+.stripe .FormGroup > div:last-child {
+  display: flex;
+}
+
+.stripe .FormGroup > div:first-child > div{
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.stripe .FormGroup > div:last-child > div:nth-child(2) > div{
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.stripe .FormGroup > div:last-child > div:last-child > div{
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.stripe .FormGroup > div:last-child > div:first-child{
+  width: 50%;
+  
+}
+
+.stripe .FormGroup > div:last-child > div:nth-child(2){
+  width: 25%;
+  margin: 0 10px;
+}
+
+.stripe .FormGroup > div:last-child > div:last-child{
+  width: 25%;
+}
+
+.stripe .FormGroup input{
+  padding: 14.5px;
+  width: 92%;
+  outline: none;
+  border: 1px solid gray;
+  margin-top: 1px;
+}
+
+.stripe > div:last-child{
+  border: 1px solid gray;
+  padding: 50px;
+}
+
+.stripe .payPal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stripe .payPal > .payPalImg > img{
+  height: 30px;
+}
+
+.stripe .payPal div:first-child {
+  display: flex;
+}
+
+.stripe .payPal div:first-child p {
+  line-height: .1;
+  font-weight: 600;
+}
+
+.stripe > div:last-child > div:last-child{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: -20px;
+}
+
+.stripe > div:last-child > div:last-child > *{
+  font-size: 20px;
+  outline: none;
+}
+
+@media (max-width: 1400px) {
+  .stripe .FormGroup > div:last-child > div:first-child{
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stripe > div:first-child,
+  .stripe > div:last-child{
+    padding: 50px 20px;
+  }
+
+  .stripe .creditCard div:first-child small,
+  .stripe .payPal div:first-child small{
+    font-size: 10px;
+  }
+
+  .stripe .Form > .FormGroup label{
+    font-size: 10px;
+  }
+  .stripe .ErrorMessage{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .stripe > div:first-child,
+  .stripe > div:last-child{
+    padding: 50px 10px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:first-child{
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 771px) {
+  .stripe > div:first-child,
+  .stripe > div:last-child{
+    padding: 50px 10px;
+  }
+
+  .stripe .FormGroup > div:first-child > div{
+    padding: 10px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:nth-child(2) > div{
+    padding: 10px;
+  }
+  
+  .stripe .FormGroup > div:last-child > div:last-child > div{
+    padding: 10px;
+  }
+
+  .stripe .FormGroup input{
+    padding: 9.5px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:first-child{
+    margin-right: 10px;
+  }
+
+  .stripe .Form > .FormGroup label{
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 661px) {
+  .stripe .FormGroup > div:first-child > div{
+    padding: 5px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:first-child{
+    width: 40%;
+    
+  }
+  
+  .stripe .FormGroup > div:last-child > div:nth-child(2){
+    width: 30%;
+  }
+  
+  .stripe .FormGroup > div:last-child > div:last-child{
+    width: 30%;
+    margin-left: -3px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:nth-child(2) > div{
+    padding: 5px;
+  }
+  
+  .stripe .FormGroup > div:last-child > div:last-child > div{
+    padding: 5px;
+  }
+
+  .stripe .FormGroup input{
+    padding: 5px;
+  }
+
+  .stripe .FormGroup > div:last-child > div:first-child{
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 350px) {
+  .stripe .Form > .FormGroup label{
+    font-size: 5px;
+  }
+
+  .stripe .payPal > .payPalImg > img{
+    height: 15px;
+  }
+}

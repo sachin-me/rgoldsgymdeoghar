@@ -1,0 +1,176 @@
+.ourClasses{
+    margin: 40px;
+}
+
+.ourClasses > section:first-child,
+.ourClasses > section:last-child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.ourClasses > section:first-child > section,
+.ourClasses > section:last-child > section{
+    width: 33.33%;
+    height: 600px;
+    margin: 10px;
+    background-size: cover;
+}
+
+.ourClasses > section:first-child > section > *,
+.ourClasses > section:last-child > section > *{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.ourClasses > section:first-child > section .classBtn,
+.ourClasses > section:last-child > section .classBtn{
+    background-color: goldenrod;
+    position: relative;
+    width: 80%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    top: 550px;
+    border-radius: 0;
+}
+
+.ourClasses > section:first-child > section:first-child{
+    background-image: url(../../images/ourClasses/class-1.jpg);
+    
+}
+
+.ourClasses > section:first-child > section:nth-child(2){
+    background-image: url(../../images/ourClasses/class-2.jpg);
+}
+
+.ourClasses > section:first-child > section:last-child{
+    background-image: url(../../images/ourClasses/class-3.jpg);
+}
+
+.ourClasses > section:last-child > section:first-child{
+    background-image: url(../../images/ourClasses/class-4.jpg);
+}
+
+.ourClasses > section:last-child > section:nth-child(2){
+    background-image: url(../../images/ourClasses/class-5.jpg);
+}
+
+.ourClasses > section:last-child > section:last-child{
+    background-image: url(../../images/ourClasses/class-6.jpg);
+}
+
+.ourClasses > section:first-child > section > img{
+    height: 400px;
+}
+
+@media (max-width: 1600px) {
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        height: 500px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 450px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        height: 400px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .ourClasses > section:first-child,
+    .ourClasses > section:last-child{
+        margin-bottom: 50px;
+    }
+
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        height: 300px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 260px;
+        height: 80px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 950px) {
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        height: 250px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 220px;
+        height: 60px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 771px) {
+    .ourClasses > section:first-child,
+    .ourClasses > section:last-child{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 220px;
+    }
+}
+
+@media (max-width: 670px) {
+    .ourClasses > section:first-child,
+    .ourClasses > section:last-child{
+        margin-bottom: 0;
+    }
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        width: 350px;
+        height: 350px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 320px;
+    }
+}
+
+@media (max-width: 441px) {
+    .ourClasses > section:first-child > section,
+    .ourClasses > section:last-child > section{
+        width: 250px;
+        height: 250px;
+    }
+
+    .ourClasses > section:first-child > section .classBtn,
+    .ourClasses > section:last-child > section .classBtn{
+        top: 220px;
+        font-size: 14px;
+    }
+}

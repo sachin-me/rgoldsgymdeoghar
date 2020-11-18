@@ -1,0 +1,120 @@
+.secondaryHeader{
+    background: url(../../images/header_background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 60px;
+    height: 500px;
+}
+
+.secondaryHeader .navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.secondaryHeader .navBar > h2{
+    font-size: 30px;
+    color: white;
+}
+
+.secondaryHeader .navBar .navOption{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondaryHeader .navBar .navOption > p{
+    padding: 15px 25px;
+    font-weight: 600;
+}
+
+.secondaryHeader .navBar .navOption > p > *{
+    text-decoration: none;
+    color: white;
+}
+
+.secondaryHeader .navBar > section:last-child{
+    display: none;
+}
+
+.secondaryHeader section:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width: 1400px){
+    .secondaryHeader{
+        height: 450px;
+    }
+}
+
+@media (max-width: 1111px) {
+    .secondaryHeader .navBar .navOption > p{
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 940px) {
+    .secondaryHeader .navBar .navOption > p{
+        padding: 15px 5px;
+    }
+}
+
+@media (max-width: 771px) {
+    .secondaryHeader .navBar .navOption{
+        display: none;
+    }
+
+    .secondaryHeader .navBar > section:last-child{
+        display: block;
+        margin-top: -10px;
+    }
+
+    .secondaryHeader .navBar > section:last-child > *{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 690px) {
+    .secondaryHeader{
+        height: 300px;
+    }
+
+    .secondaryHeader .navBar{
+        padding: 10px 0;
+    }
+
+    .secondaryHeader .navBar > h2{
+        font-size: 20px;
+    }
+
+    .secondaryHeader .navBar > section:last-child{
+        margin-top: -20px;
+    }
+
+    .secondaryHeader > section:last-child{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 441px) {
+    .secondaryHeader{
+        padding: 0 30px;
+    }
+
+    .secondaryHeader .navBar > h2{
+        font-size: 15px;
+    }
+
+    .secondaryHeader .navBar > section:last-child{
+        margin-top: -25px;
+    }
+
+    .secondaryHeader .navBar > section:last-child > *{
+        font-size: 12px;
+    }
+}
